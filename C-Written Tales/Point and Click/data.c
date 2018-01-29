@@ -626,7 +626,7 @@ fillInteractiveRenderedObjects(game, 25, 325, 10, 0, 240, 350, 66, true, 0, 50, 
 fillInteractiveRenderedObjects(game, 26, 326, 10, 0, 240, 350, 67, true, 0, 51, true,  564, true, 219,  0);
 fillInteractiveRenderedObjects(game, 27, 327, 950, 180, 200, 200, 73, true, 0, 52, false, 0, true, 0,  0);
 fillInteractiveRenderedObjects(game, 28, 328, 200, 200, 200, 200, 74, true, 0, 53, false, 0, true, 0,  0);
-fillInteractiveRenderedObjects(game, 29, 329, 500, 300, 300, 300, 20/*86*/, true, 0, 58, false, 0, false, 0, 0); //Start
+fillInteractiveRenderedObjects(game, 29, 329, 480, 365, 200, 100, 86, true, 0, 58, false, 0, false, 0, 0); //Start
 fillInteractiveRenderedObjects(game, 30, 330, 0, 0, 100, 100, 77, true, 0, 59, false, 0, false, 0, 0);//Return to room 0
 fillInteractiveRenderedObjects(game, 31, 331, 420, 70, 150, 108, 79, true, 0, 60, false, 0, false, 0, 0);//triforce
 }

@@ -1,2 +1,2 @@
 # C-Written-Tales-Beta
-Beta Version
+Beta Release of C-Written Tales

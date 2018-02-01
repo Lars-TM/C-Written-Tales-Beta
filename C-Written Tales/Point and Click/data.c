@@ -403,7 +403,7 @@ char texts[200][200]={
   {"Computer Says No"},//127
   {"Yes ehh No"},//128
   {"Me Hungry So NO"},//129
-  {"TEXT"},//130
+  {"What does a gay troll say to a beautiful lady? NO"},//130
   {"I'm sorry Wormy"},//131
   {"I should get nearer"},//132
   {"I can't imagine something to craft from these two."},//133
@@ -822,10 +822,6 @@ void loadBeginning(GameState *game){
 
     //Room 5 - The End
     addObjectTo_Array(game, 5, 0, 17);
-
-
-    /*game->currentRoom = 3;
-    game->actualGame = 1;*/
 
 
 
@@ -1574,7 +1570,7 @@ void handleEventId_3(GameState *game, int EventId, int clickCount, int objektID)
 	}
 	if(EventId == 210){
       if(clickCount == 0){
-        letEmSpeak(game, 101);
+        letEmSpeak(game, 111);
         removeObjectFrom_ObjectsInInventory(game, 571);
         changeClickCountOfObject(game, objektID, 3);
         game->idOfObjectMountedOnMouse = 0;

@@ -10,3 +10,7 @@ Early Access - Release of C-Written Tales
 -Sound Now Included
 
 -Updated Images
+
+
+
+# You can request help under the issues tab

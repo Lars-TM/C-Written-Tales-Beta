@@ -488,16 +488,16 @@
 	"data.h"
 	"dataOperations.h"
 
-1517182147 c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\structdefinitions.h
+1517479540 c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\structdefinitions.h
 	<pthread.h>
 	<SDL2/SDL_mixer.h>
 	<SDL2/SDL_ttf.h>
 
-1517166158 c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\data.h
+1517486285 c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\data.h
 
 1516142401 c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\dataoperations.h
 
-1517029020 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\customonclickevent.c
+1517338140 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\customonclickevent.c
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<stdio.h>
@@ -507,7 +507,7 @@
 	"structDefinitions.h"
 	"data.h"
 
-1517225908 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\data.c
+1517487429 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\data.c
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<stdio.h>
@@ -566,7 +566,7 @@
 
 1516737651 c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\main.h
 
-1516891254 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\letemspeak.c
+1517485157 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\letemspeak.c
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<stdio.h>
@@ -577,7 +577,7 @@
 	"data.h"
 	"audio.h"
 
-1517180424 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\main.c
+1517487560 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\main.c
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<stdio.h>
@@ -598,7 +598,7 @@
 
 1516288332 c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\customonclickevent.h
 
-1517168888 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\render.c
+1517486636 source:c:\users\lars rass\desktop\studium\1. semester\prozedurale programmierung\clicknpoint\point and click\render.c
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<stdio.h>

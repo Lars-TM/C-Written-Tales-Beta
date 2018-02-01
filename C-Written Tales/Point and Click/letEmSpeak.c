@@ -44,12 +44,14 @@ void showText(GameState *game, char text[200]){
 }
 
 void letEmSpeak(GameState *game, int letEmSpeakId){
+    game->acceptOnlyNumberInput = 1;
+    game->acceptInput = 0;
     playSound(game, letEmSpeakArray[letEmSpeakId][0], 0);
     addTextToShow(game, texts[letEmSpeakArray[letEmSpeakId][1]]);
-    game->acceptInput = 0;
     sleep_ms(letEmSpeakArray[letEmSpeakId][2]);
     deleteTextToShow(game);
     game->acceptInput = 1;
+    game->acceptOnlyNumberInput = 0;
 }
 
 void drawTextLayer(GameState *game){

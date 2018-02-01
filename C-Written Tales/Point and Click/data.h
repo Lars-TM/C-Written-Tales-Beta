@@ -24,6 +24,8 @@ extern GameState *GAME;
 extern void* handleEventId(void* parameter);
 extern void loadBeginning(GameState *game);
 extern void startEvent(GameState *game, int eventID, int clickCount, int objectID);
+extern void loadGameInMemory(GameState *game);
+extern void loadMenu(GameState *game);
 
 #endif
 

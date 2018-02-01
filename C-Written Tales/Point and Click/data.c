@@ -120,10 +120,10 @@ char imgSource[100][100]={
   };
 
 char musicSource[100][100]={
-  {"music\\musik.wav"},//StartMusic
-  {"music\\musik.wav"},//GameOverMusic
-  {"music\\musik.wav"},//FinishedGameMusic
-  {"music\\musik.wav"}//gameMusic
+  {"music\\title_intro.wav"},//StartMusic
+  {"music\\title_loop.wav"},//GameOverMusic
+  {"music\\title_intro.wav"},//FinishedGameMusic
+  {"music\\title_loop.wav"}//gameMusic
   };
 
 char soundSource[150][100]={
@@ -258,12 +258,7 @@ char soundSource[150][100]={
   {"sounds\\dialogue128.wav"},//128
   {"sounds\\dialogue129.wav"},//129
   {"sounds\\dialogue130.wav"},//130
-  {"sounds\\dialogue130.wav"},//131
-  {"sounds\\dialogue131.wav"},//132
-  {"sounds\\dialogue132.wav"},//133
-  {"sounds\\dialogue133.wav"},//134
-  {"sounds\\dialogue134.wav"},//135
-  {"sounds\\dialogue135.wav"},//136
+  {"sounds\\dialogue131.wav"},//131
   {"sounds\\explosion.wav"},//137
   {"sounds\\attackingCat.wav"}//138
   };
@@ -304,26 +299,26 @@ char texts[200][200]={
   {"Seems to be a magic mushroom. Could be useful."},//23
   {"Will I grow when I eat the magic mushroom? Or will I get a food poisoning... Not worth trying."},//24
   {"That seems to be a smart idea... What bad can happen in a dark, moist place under the bed of a witch.."},//25
-  {"Hello darkness my old friend... oh no... copyright infringements..."},//26
+  {"(hums \"Hello darkness my old friend\")... oh no... copyright infringements..."},//26
   {"I would grab under the bed... but there is a weird substance... sooooo... no."},//27
-  {"Yeah with to broom it works... Oh great a green slimy substance... Perfect for my new pocket... Thank you Tom.."},//28
+  {"Yeah with to broom it works... Oh great a green slimy substance... Perfect for my new pocket..."},//28
   {"Hey a random flask with a random substance, another great idea! "},//29
   {"Finally something useful, the key for the closet."},//30
   {"I don't want to know what else is under the bed, so I will not risk anything else."},//31
   {"Why so slimy. "},//32
   {"A random flask with a weird substance... yeah what could go wrong..."},//33
   {"A key... Not everything is special."},//34
-  {"Locked. Just Locked."},//35
+  {"Locked. Locked. Just Locked."},//35
   {"Wow! Inside this closet is everything I've ever wanted... And Tom...But I only can take out the birdfood."},//36
   {"The key magically disappeared... "},//37
   {"Ok the bird food is a living rat.. fine... Ouuuuh! It bit me!"},//38
   {"I could use this courtain cord... So I take it. Wait, wouldn't that be burglary?.... naaah who cares."},//39
   {"A courtain cord. I wonder for what I can use it."},//40
   {"It's a normal door. Sealed with magic. Epic. Like in an epic saga."},//41
-  {"Always these fandom nerds."},//42
+  {"Such a fandom nerd."},//42
   {"So this magic paste removed the magic barrier. But now the door is glued together. Epic fail."},//43
   {"What could go wrong...."},//44
-  {"After stiring water with the silmy substance,  use some brain while cooking and take some shrooms."},//45
+  {"After stiring water with the slimy substance,  use some brain while cooking and take some shrooms."},//45
   {"Sometimes two brains work faster then one."},//46
   {"It's a rat brain. Something everybody should have in his inventory."},//47
   {"It's a couldron with some water in it."},//48
@@ -345,7 +340,7 @@ char texts[200][200]={
   {"Maybe I should not spend too much time on her."},//64
   {"She can wake up anytime."},//65
   {"Let it be. Or let it go. Whichever company pays us more."},//66
-  {"She felt our glances and woke up.... Game over."},//67
+  {"Nooo! She felt our glances and woke up.... Game over."},//67
   {"It's a bomb without a fuse."},//68
   {"Crafting in progress..."},//69
   {"Now it has a fuse!"},//70
@@ -356,14 +351,14 @@ char texts[200][200]={
   {"Don't give me the bomb stupid! USE IT ON THE DOOR!"},//75
   {"You are really not interesting... Go away!"},//76
   {"That was a stupid idea. Magic paste? Seriously?  "},//77
-  {"Why you just don't make a bomb and destroy everything! "},//78
-  {"Don't come near me with this flask...."},//79
+  {"Why don't you just make a bomb and destroy everything!"},//78
+  {"Don't come near me with this flask..."},//79
   {"How did I survive... Nevertheless, the witch is hopefully dead and I am free!"},//80
   {"Seems to be a rocky road."},//81
   {"It's an rock. That blocks my way... Maybe I'll find a way."},//82
   {"Maybe Rock & Roll? Naah it's to heavy..."},//83
-  {"It may be hard, but it is nevertheless no cafe, so maybe I should do something else?"},//84
-  {"Hey that the rock has a sad face! Maybe I've touched him too much..."},//85
+  {"It may be hard, but it is no cafe, so maybe I should do something else?"},//84
+  {"Hey that the rock has a sad face! Maybe I've touched him too much...  ;)"},//85
   {"Still a rock."},//86
   {"Wingardium Leviosaaaaa! Hm, spells from Hogwarts are useless here."},//87
   {"Nevertheless it's a rock."},//88
@@ -383,15 +378,15 @@ char texts[200][200]={
   {"And thats why dogs are better."},//102
   {"It seems to be a calm river..."},//103
   {"Oh no! I cannot pass the river, there are piranhas... What an original idea."},//104
-  {"What a great idea. Maybe as great as this game..."},//105
+  {"What a great idea. Nearly as great as this game..."},//105
   {"HUNGER! ELV! MAMPF!"},//106
-  {"Hello my dear. Always nice to meet an intelligent colluquists so far away from the civilication."},//107
+  {"Hello my dear. Always nice to meet an intelligent colluquist so far away from the civilication."},//107
   {"I AM TOM! I EAT TO YOU WANT!"},//108
-  {"Sorry my dear, my lovely brother is just very hungry and so just unbearable."},//109
+  {"Sorry my dear, my lovely brother is just very hungry and just so unbearable."},//109
   {"Maybe when you bring him something to eat, I'll let you pass."},//110
   {"Sorry my dear, but this isn't enough. It's hard to control my brother when he is hungry. So I cannot let you pass, for your safety."},//111
   {"PASS CANNOT YOU!"},//112
-  {"So there is just only one more option left?"},//113
+  {"So there is only one option left?"},//113
   {"Hello my dear troll? Maybe we can make an agreement..."},//114
   {"WHAT DO YOU MEAN?."},//115
   {"Sorry my dear, but we are not playing on your team... But maybe you could get us some meat..."},//116
@@ -400,14 +395,14 @@ char texts[200][200]={
   {"Can I pass? Hmmmm nah."},//119
   {"Now? Nope."},//120
   {"Couldn't you just watch the fish? - I can, my brother not soo... mm"},//121
-  {"Can I pass? YOU CANNOT PASS! eeeeeemhm"},//122
-  {"Hello sweety - aahaah"},//123
+  {"Can I pass? YOU SHALL NOT PASS!"},//122
+  {"Hello sweety... - aahaah"},//123
   {"Now? Yes of cause my darling! Really? hmmnäää"},//124
   {"Do you eat leafs? hmnänänänä"},//125
   {"You're a womyn-hating, close-minded, imperialistic green-devil! - SJW generator? "},//126
-  {"TEXT"},//127
-  {"TEXT"},//128
-  {"TEXT"},//129
+  {"Computer Says No"},//127
+  {"Yes ehh No"},//128
+  {"Me Hungry So NO"},//129
   {"TEXT"},//130
   {"I'm sorry Wormy"},//131
   {"I should get nearer"},//132
@@ -422,142 +417,138 @@ char questions[200][200]={
 };
 
 int letEmSpeakArray[200][3]={
-  {0, 0, 1500},//0     //1.SoundID 2.TextId 3.Delay in Milliseconds
-  {0, 1, 1500},//1
-  {0, 2, 1500},//2
-  {0, 3, 1500},//3
-  {0, 4, 1500},//4
-  {0, 5, 1500},//5
-  {0, 6, 1500},//6
-  {0, 7, 1500},//7
-  {0, 8, 1500},//8
-  {0, 9, 1500},//9
-  {0, 10, 1500},//10
-  {0, 11, 1500},//11
-  {0, 12, 1500},//12
-  {0, 13, 1500},//13
-  {0, 14, 1500},//14
-  {0, 15, 1500},//15
-  {0, 16, 1500},//16
-  {0, 17, 1500},//17
-  {0, 18, 1500},//18
-  {0, 19, 1500},//19
-  {0, 20, 1500},//20
-  {0, 21, 1500},//21
-  {0, 22, 1500},//22
-  {0, 23, 1500},//23
-  {0, 24, 1500},//24
-  {0, 25, 1500},//25
-  {0, 26, 1500},//26
-  {0, 27, 1500},//27
-  {0, 28, 1500},//28
-  {0, 29, 1500},//29
-  {0, 30, 1500},//30
-  {0, 31, 1500},//31
-  {0, 32, 1500},//32
-  {0, 33, 1500},//33
-  {0, 34, 1500},//34
-  {0, 35, 1500},//35
-  {0, 36, 1500},//36
-  {0, 37, 1500},//37
-  {0, 38, 1500},//38
-  {0, 39, 1500},//39
-  {0, 40, 1500},//40
-  {0, 41, 1500},//41
-  {0, 42, 1500},//42
-  {0, 43, 1500},//43
-  {0, 44, 1500},//44
-  {0, 45, 1500},//45
-  {0, 46, 1500},//46
-  {0, 47, 1500},//47
-  {0, 48, 1500},//48
-  {0, 49, 1500},//49
-  {0, 50, 1500},//50
-  {0, 51, 1500},//51
-  {0, 52, 1500},//52
-  {0, 53, 1500},//53
-  {0, 54, 1500},//54
-  {0, 55, 1500},//55
-  {0, 56, 1500},//56
-  {0, 57, 1500},//57
-  {0, 58, 1500},//58
-  {0, 59, 1500},//59
-  {0, 60, 1500},//60
-  {0, 61, 1500},//61
-  {0, 62, 1500},//62
-  {0, 63, 1500},//63
-  {0, 64, 1500},//64
-  {0, 65, 1500},//65
-  {0, 66, 1500},//66
-  {0, 67, 1500},//67
-  {0, 68, 1500},//68
-  {0, 69, 1500},//69
-  {0, 70, 1500},//70
-  {0, 71, 1500},//71
-  {0, 72, 1500},//72
-  {0, 73, 1500},//73
-  {0, 74, 1500},//74
-  {0, 75, 1500},//75
-  {0, 76, 1500},//76
-  {0, 77, 1500},//77
-  {0, 78, 1500},//78
-  {0, 79, 1500},//79
-  {0, 80, 1500},//80
-  {0, 81, 1500},//81
-  {0, 82, 1500},//82
-  {0, 83, 1500},//83
-  {0, 84, 1500},//84
-  {0, 85, 1500},//85
-  {0, 86, 1500},//86
-  {0, 87, 1500},//87
-  {0, 88, 1500},//88
-  {0, 89, 1500},//89
-  {0, 90, 1500},//90
-  {0, 91, 1500},//91
-  {0, 92, 1500},//92
-  {0, 93, 1500},//93
-  {0, 94, 1500},//94
-  {0, 95, 1500},//95
-  {0, 96, 1500},//96
-  {0, 97, 1500},//97
-  {0, 98, 1500},//98
-  {0, 99, 1500},//99
-  {0, 100, 1500},//100
-  {0, 101, 1500},//101
-  {0, 102, 1500},//102
-  {0, 103, 1500},//103
-  {0, 104, 1500},//104
-  {0, 105, 1500},//105
-  {0, 106, 1500},//106
-  {0, 107, 1500},//107
-  {0, 108, 1500},//108
-  {0, 109, 1500},//109
-  {0, 110, 1500},//110
-  {0, 111, 1500},//111
-  {0, 112, 1500},//112
-  {0, 113, 1500},//113
-  {0, 114, 1500},//114
-  {0, 115, 1500},//115
-  {0, 116, 1500},//116
-  {0, 117, 1500},//117
-  {0, 118, 1500},//118
-  {0, 119, 1500},//119
-  {0, 120, 1500},//120
-  {0, 121, 1500},//121
-  {0, 122, 1500},//122
-  {0, 123, 1500},//123
-  {0, 124, 1500},//124
-  {0, 125, 1500},//125
-  {0, 126, 1500},//126
-  {0, 127, 1500},//127
-  {0, 128, 1500},//128
-  {0, 129, 1500},//129
-  {0, 130, 1500},//130
-  {0, 131, 1500},//131
-  {0, 132, 1500},//132
-  {0, 133, 1500},//133
-  {0, 134, 1500},//134
-  {0, 135, 1500},//135
+  {0, 0, 5000},//0     //1.SoundID 2.TextId 3.Delay in Milliseconds
+  {1, 1, 2000},//1
+  {2, 2, 6000},//2
+  {3, 3, 8000},//3
+  {4, 4, 7000},//4
+  {5, 5, 5000},//5
+  {6, 6, 4000},//6
+  {7, 7, 2000},//7
+  {8, 8, 4000},//8
+  {9, 9, 6000},//9
+  {10, 10, 3000},//10
+  {11, 11, 7000},//11
+  {12, 12, 4000},//12
+  {13, 13, 3000},//13
+  {14, 14, 6000},//14
+  {15, 15, 5000},//15
+  {16, 16, 5000},//16
+  {17, 17, 4000},//17
+  {18, 18, 6000},//18
+  {19, 19, 6000},//19
+  {20, 20, 6000},//20
+  {21, 21, 3000},//21
+  {22, 22, 8000},//22
+  {23, 23, 4000},//23
+  {24, 24, 8000},//24
+  {25, 25, 7000},//25
+  {26, 26, 9000},//26
+  {27, 27, 6000},//27
+  {28, 28, 10000},//28
+  {29, 29, 7000},//29
+  {30, 30, 5000},//30
+  {31, 31, 8000},//31
+  {32, 32, 3000},//32
+  {33, 33, 6000},//33
+  {34, 34, 3000},//34
+  {35, 35, 3000},//35
+  {36, 36, 8000},//36
+  {37, 37, 3000},//37
+  {38, 38, 8000},//38
+  {39, 39, 9000},//39
+  {40, 40, 4000},//40
+  {41, 41, 7000},//41
+  {42, 42, 2000},//42
+  {43, 43, 8000},//43
+  {44, 44, 3000},//44
+  {45, 45, 7000},//45
+  {46, 46, 4000},//46
+  {47, 47, 5000},//47
+  {48, 48, 3000},//48
+  {49, 49, 2000},//49
+  {50, 50, 2000},//50
+  {51, 51, 2000},//51
+  {52, 52, 3000},//52
+  {53, 53, 5000},//53
+  {54, 54, 5000},//54
+  {55, 55, 3000},//55
+  {56, 56, 6000},//56
+  {57, 57, 6000},//57
+  {58, 58, 4000},//58
+  {59, 59, 6000},//59
+  {60, 60, 9000},//60
+  {61, 61, 4000},//61
+  {62, 62, 4000},//62
+  {63, 63, 11000},//63
+  {64, 64, 5000},//64
+  {65, 65, 3000},//65
+  {66, 66, 5000},//66
+  {67, 67, 5000},//67
+  {68, 68, 3000},//68
+  {69, 69, 2000},//69
+  {70, 70, 3000},//70
+  {71, 71, 3000},//71
+  {72, 72, 4000},//72
+  {73, 73, 5000},//73
+  {74, 74, 7000},//74
+  {75, 75, 4000},//75
+  {76, 76, 4000},//76
+  {77, 77, 4000},//77
+  {78, 78, 4000},//78
+  {79, 79, 3000},//79
+  {80, 80, 7000},//80
+  {81, 81, 3000},//81
+  {82, 82, 4000},//82
+  {83, 83, 5000},//83
+  {84, 84, 6000},//84
+  {85, 85, 10000},//85
+  {86, 86, 2000},//86
+  {87, 87, 7000},//87
+  {88, 88, 3000},//88
+  {89, 89, 4000},//89
+  {90, 90, 4000},//90
+  {91, 91, 11000},//91
+  {92, 92, 4000},//92
+  {93, 93, 4000},//93
+  {94, 94, 8000},//94
+  {95, 95, 12000},//95
+  {96, 96, 3000},//96
+  {97, 97, 5000},//97
+  {98, 98, 7000},//98
+  {99, 99, 4000},//99
+  {100, 100, 8000},//100
+  {101, 101, 12000},//101
+  {102, 102, 3000},//102
+  {103, 103, 4000},//103
+  {104, 104, 7000},//104
+  {105, 105, 6000},//105
+  {106, 106, 5000},//106
+  {107, 107, 7000},//107
+  {108, 108, 4000},//108
+  {109, 109, 6000},//109
+  {110, 110, 4000},//110
+  {111, 111, 9000},//111
+  {112, 112, 3000},//112
+  {113, 113, 4000},//113
+  {114, 114, 5000},//114
+  {115, 115, 2000},//115
+  {116, 116, 10000},//116
+  {117, 117, 3000},//117
+  {118, 118, 6000},//118
+  {119, 119, 5000},//119
+  {120, 120, 4000},//120
+  {121, 121, 8000},//121
+  {122, 122, 6000},//122
+  {123, 123, 4000},//123
+  {124, 124, 6000},//124
+  {125, 125, 5000},//125
+  {126, 126, 9000},//126
+  {127, 127, 5000},//127
+  {128, 128, 4000},//128
+  {129, 129, 4000},//129
+  {130, 130, 6000},//130
+  {131, 131, 3000},//131
 };
 
 int EVENTID;
@@ -700,6 +691,39 @@ int **currentlyOnDisplay;
 int *bufferAllowedToWalkHere;
 int **AllowedToWalkHere;
 
+void changeClickCountOfObject(GameState *game, int objektID, int newClickCount){
+
+                if(objektID >= 300 && objektID < 550){
+                   game->interactiveRenderedObjects[objektID-300].clickCount = newClickCount;
+                }
+
+                if(objektID >= 550){
+                   game->collectibleObjects[objektID-550].clickCount = newClickCount;
+                }
+}
+
+void changeInteraction_CRAFT_EventCountOfObject(GameState *game, int objektID, int newInteractionEventCount){
+
+                if(objektID >= 300 && objektID < 550){
+                   game->interactiveRenderedObjects[objektID-300].InteractionEventCount = newInteractionEventCount;
+                }
+
+                if(objektID >= 550){
+                   game->collectibleObjects[objektID-550].CraftEventCount = newInteractionEventCount;
+                }
+}
+
+void changeClickableOfObject(GameState *game, int objektID, bool clickable){
+
+                if(objektID >= 300 && objektID < 550){
+                   game->interactiveRenderedObjects[objektID-300].clickable = clickable;
+                }
+
+                if(objektID >= 550){
+                   game->collectibleObjects[objektID-550].clickable = clickable;
+                }
+}
+
 void loadMenu(GameState *game){
     //Room 9
     //Hintergrund
@@ -711,6 +735,13 @@ void loadMenu(GameState *game){
 
 void loadBeginning(GameState *game){
    // game->actualGame = 1;
+
+   /*int xPosition = 850;
+   int yPosition = 160;
+   if(game->WINDOW_WIDTH != 1200){
+        xPosition = xPosition + (150-game->PERSON_WIDTH);
+        yPosition = yPosition + (300-game->PERSON_HEIGHT);
+    }*/
     game->person.x = 850;
     game->person.y = 160;
 //x = 850
@@ -732,6 +763,7 @@ void loadBeginning(GameState *game){
     addObjectTo_Array(game, 0, 2, 301);//
     addObjectTo_Array(game, 0, 1, 302);
     addObjectTo_Array(game, 0, 1, 308);
+    changeClickableOfObject(game, 308, false);
     addObjectTo_Array(game, 0, 1, 319);
     addObjectTo_Array(game, 0, 1, 6);
     addObjectTo_Array(game, 0, 2, 303);
@@ -792,41 +824,11 @@ void loadBeginning(GameState *game){
     addObjectTo_Array(game, 5, 0, 17);
 
 
+   /* game->currentRoom = 3;
+    game->actualGame = 1;
+*/
 
 
-}
-
-void changeClickCountOfObject(GameState *game, int objektID, int newClickCount){
-
-                if(objektID >= 300 && objektID < 550){
-                   game->interactiveRenderedObjects[objektID-300].clickCount = newClickCount;
-                }
-
-                if(objektID >= 550){
-                   game->collectibleObjects[objektID-550].clickCount = newClickCount;
-                }
-}
-
-void changeInteraction_CRAFT_EventCountOfObject(GameState *game, int objektID, int newInteractionEventCount){
-
-                if(objektID >= 300 && objektID < 550){
-                   game->interactiveRenderedObjects[objektID-300].InteractionEventCount = newInteractionEventCount;
-                }
-
-                if(objektID >= 550){
-                   game->collectibleObjects[objektID-550].CraftEventCount = newInteractionEventCount;
-                }
-}
-
-void changeClickableOfObject(GameState *game, int objektID, bool clickable){
-
-                if(objektID >= 300 && objektID < 550){
-                   game->interactiveRenderedObjects[objektID-300].clickable = clickable;
-                }
-
-                if(objektID >= 550){
-                   game->collectibleObjects[objektID-550].clickable = clickable;
-                }
 }
 
 void handleEventId_1(GameState *game, int EventId, int clickCount, int objektID){
@@ -974,9 +976,7 @@ void handleEventId_1(GameState *game, int EventId, int clickCount, int objektID)
                 changeClickCountOfObject(game, objektID, 2);
 		} else if(clickCount == 2){
                 letEmSpeak(game, 27);
-                changeClickCountOfObject(game, objektID, 3);
-		} else if(clickCount == 3){
-                letEmSpeak(game, 28);
+
 		}
 	}
 if(EventId == 13){
@@ -1120,7 +1120,7 @@ if(EventId == 25){
 if(EventId == 26){
       if(clickCount == 0){
         letEmSpeak(game, 57);
-        changeClickCountOfObject(game, clickCount, 1);
+        changeClickCountOfObject(game, 558, 1);
         removeFromGameDisplay(game, 1, 558);
         addObjectTo_ObjectsInInventory(game, 558);
       } else if(clickCount == 1){
@@ -1311,14 +1311,14 @@ if(EventId == 52){
         letEmSpeak(game, 94);
         game->currentRoom = 4;
         Blackscreen(game, 700,false,0);
-        game->person.x = 50;
+        game->person.x = 120;
         game->person.y = 200;
         game->person.imgID = 3;
         changeClickCountOfObject(game, objektID, 1);
       } else if(clickCount == 1){
         game->currentRoom = 4;
         Blackscreen(game, 700,false,0);
-        game->person.x = 50;
+        game->person.x = 120;
         game->person.y = 200;
         game->person.imgID = 3;
       }
@@ -1343,17 +1343,26 @@ if(EventId == 54){
 	}
 if(EventId == 55){
       if(clickCount == 0){
-        letEmSpeak(game, 132);
+        addTextToShow(game, texts[132]);
+        sleep_ms(2000);
+        deleteTextToShow(game);
+        //letEmSpeak(game, 132);
       }
 	}
 if(EventId == 56){
       if(clickCount == 0){
-        letEmSpeak(game, 133);
+        addTextToShow(game, texts[133]);
+        sleep_ms(2000);
+        deleteTextToShow(game);
+        //letEmSpeak(game, 133);
       }
 	}
 if(EventId == 57){
       if(clickCount == 0){
-        letEmSpeak(game, 134);
+        addTextToShow(game, texts[134]);
+        sleep_ms(2000);
+        deleteTextToShow(game);
+        //letEmSpeak(game, 134);
       }
 	}
 if(EventId == 58){
@@ -1362,6 +1371,8 @@ if(EventId == 58){
         game->actualGame = 1;
         stopMusic(game);
         startMusic(game, 3);
+        sleep_ms(20000);
+        Mix_VolumeMusic(15);
       }
 	}
 if(EventId == 59){
@@ -1471,6 +1482,7 @@ void handleEventId_3(GameState *game, int EventId, int clickCount, int objektID)
         removeFromGameDisplay(game, 0, 301);
         changeClickCountOfObject(game, 307, 1);
         game->idOfObjectMountedOnMouse = 0;
+        changeClickableOfObject(game, 308, true);
 
       }
 	}
@@ -1582,7 +1594,7 @@ void handleEventId_3(GameState *game, int EventId, int clickCount, int objektID)
         letEmSpeak(game, 98);
         addObjectTo_ObjectsInInventory(game, 569);
         game->idOfObjectMountedOnMouse = 0;
-        changeClickCountOfObject(game, objektID, 1);
+        changeInteraction_CRAFT_EventCountOfObject(game, objektID, 1);
       }
 	}
     if(EventId == 213){

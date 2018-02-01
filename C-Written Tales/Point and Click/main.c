@@ -458,9 +458,8 @@ int main(int argc, char *argv[])
     gameState.WINDOW_WIDTH = scannedVariable;
     gameState.WINDOW_HEIGHT = (int)(((double)scannedVariable/(double)12)*(double)8);
     gameState.GAME_WINDOW_BOTTOM = (int)(((double)scannedVariable/(double)16)*(double)9);
-    gameState.PERSON_HEIGHT = (int)(double)scannedVariable/(double)4;
-    gameState.PERSON_WIDTH = (int)(double)scannedVariable/(double)8;
-
+    gameState.PERSON_HEIGHT = 300;
+    gameState.PERSON_WIDTH = 150;
 
 
     printf( " Start Game...\n");
@@ -502,6 +501,7 @@ int main(int argc, char *argv[])
     } else{
         printf( "  \263   \263   \263__Initialization of SDL2_Mixer successful\n  \263   \263\n");
     }
+
 
     //Initialize SDL_TTF
     printf( "  \263   \263__Initialize SDL2_TTF...\n");
@@ -570,7 +570,7 @@ int main(int argc, char *argv[])
 
   loadMenu(&gameState);
   loadBeginning(&gameState);
-   Mix_VolumeMusic(15);
+   Mix_VolumeMusic(30);
 
   // The window is open: enter program loop (see SDL_PollEvent)
    done = 0;

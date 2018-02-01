@@ -11,6 +11,8 @@ Early Access - Release of C-Written Tales
 
 -Updated Images
 
+# Version 1.02
 
+-Minor Bug Fixes
 
 # You can request help under the issues tab

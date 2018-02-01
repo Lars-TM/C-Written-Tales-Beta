@@ -367,7 +367,7 @@ char texts[200][200]={
   {"Yeah... So there is a stone, that it the bigger then me, in my pocket. Isn't it great that we are inside a Point 'n Click Adventure."},//91
   {"A hook-formed piece of metal. Could be useful."},//92
   {"It's a metalpiece with a interesting form."},//93
-  {"Such an fresh and ungeneric idea for a place. There was somebody very creative."},//94
+  {"Such a fresh and ungeneric idea for a place. Somebody was very creative here."},//94
   {"Oh a shovel. Endless possibilities to use it. I could play golf, hit somebody with it, give it somebody as a gift. Endless!"},//95
   {"Endless possibilities!"},//96
   {"Under the stone is now some dirt, crawling with worms."},//97
@@ -579,7 +579,7 @@ fillRenderedObjects(game, 15, 15, 0, 375, 500, 300, 75);
 fillRenderedObjects(game, 16, 16, 0, 0, 1200, 675, 76);
 fillRenderedObjects(game, 17, 17, 0, 0, 1200, 800, 80);
 fillRenderedObjects(game, 18, 18, 0, 0, 1200, 800, 81);
-fillRenderedObjects(game, 19, 19, 0, 0, 1200, 800, 85);
+//fillRenderedObjects(game, 19, 19, 0, 0, 1200, 800, 85);
 //fillRenderedObjects(game, 0, 550, 100, 100, 100,100, 0);
 }
 
@@ -817,16 +817,16 @@ void loadBeginning(GameState *game){
     addObjectTo_Array(game, 4, 5, 570);
     addObjectTo_Array(game, 4, 2, 328);
     addObjectTo_Array(game, 4, 6, 15);
-    addObjectTo_Array(game, 4, 7, 19);
+    //addObjectTo_Array(game, 4, 7, 19);
     //Foreground
 
     //Room 5 - The End
     addObjectTo_Array(game, 5, 0, 17);
 
 
-   /* game->currentRoom = 3;
-    game->actualGame = 1;
-*/
+    /*game->currentRoom = 3;
+    game->actualGame = 1;*/
+
 
 
 }

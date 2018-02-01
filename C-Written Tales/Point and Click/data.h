@@ -26,6 +26,7 @@ extern void loadBeginning(GameState *game);
 extern void startEvent(GameState *game, int eventID, int clickCount, int objectID);
 extern void loadGameInMemory(GameState *game);
 extern void loadMenu(GameState *game);
+extern void startMusicTread(GameState *game);
 
 #endif
 

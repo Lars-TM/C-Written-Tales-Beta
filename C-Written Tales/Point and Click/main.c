@@ -453,7 +453,7 @@ int main(int argc, char *argv[])
                 printf( "Which PixelWidth:\n");
                 scanf ("%d",&scannedVariable);
             }*/
-    int  scannedVariable = 1200;
+    int  scannedVariable = 900;
 
     gameState.WINDOW_WIDTH = scannedVariable;
     gameState.WINDOW_HEIGHT = (int)(((double)scannedVariable/(double)12)*(double)8);
@@ -493,14 +493,8 @@ int main(int argc, char *argv[])
         printf( "  \263   \263   \263__Initialization of SDL2_Image successful\n  \263   \263\n");
     }
 
-    //Initialize SDL_mixer
-    printf( "  \263   \263__Initialize SDL_Mixer...\n");
-    if( Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, 2, 4096 ) == -1 )
-    {
-        printf( "  \263   \263   \263__Failed to Initialize SDL_Mixer\n  \263   \263\n");
-    } else{
-        printf( "  \263   \263   \263__Initialization of SDL2_Mixer successful\n  \263   \263\n");
-    }
+
+    startMusicTread(&gameState);
 
 
     //Initialize SDL_TTF
@@ -570,7 +564,7 @@ int main(int argc, char *argv[])
 
   loadMenu(&gameState);
   loadBeginning(&gameState);
-   Mix_VolumeMusic(30);
+   //Mix_VolumeMusic(30);
 
   // The window is open: enter program loop (see SDL_PollEvent)
    done = 0;

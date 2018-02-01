@@ -556,6 +556,7 @@ int CLICKCOUNT;
 GameState *GAME;
 int OBJEKTID;
 pthread_t PTHREAD_HANDLE;
+pthread_t PTHREAD_HANDLE_AUDIO;
 
 
 void loadRenderedObjects(GameState *game){
@@ -1699,4 +1700,39 @@ void startEvent(GameState *game, int eventID, int clickCount, int objectID){
 
     }
     pthread_detach(thread_handle);
+}
+
+void* handleMusicStart(void* parameter){
+    //passToThreadStruct_Event *p = parameter;
+//    GameState *game = GAME;
+    pthread_t thread_handle = PTHREAD_HANDLE_AUDIO;
+     //Initialize SDL_mixer
+    printf( "  \263   \263__Initialize SDL_Mixer...\n");
+    if( Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, 2, 4096 ) == -1 )
+    {
+        printf( "  \263   \263   \263__Failed to Initialize SDL_Mixer\n  \263   \263\n");
+    } else{
+        printf( "  \263   \263   \263__Initialization of SDL2_Mixer successful\n  \263   \263\n");
+    }
+
+    pthread_detach(thread_handle);
+    return 0;
+}
+
+void startMusicTread(GameState *game){
+    pthread_t thread_handle;
+
+    //printf("Eventid: %d , clickCount: %d\n", eventID, clickCount);
+    //game->currentRoom = 1;
+
+    GAME = game;
+    PTHREAD_HANDLE_AUDIO = thread_handle;
+//    passToThreadStruct_Event eventParameters = {game, thread_handle};
+
+    int ret = pthread_create(&thread_handle, 0, handleMusicStart, &game);
+
+    if( ret != 0){
+        printf("Create thread failed! Error= %d", ret);
+
+    }
 }
